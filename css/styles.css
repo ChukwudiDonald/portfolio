@@ -4238,3 +4238,30 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+/* ------------------------------------------------------------------- 
+ * CUSTOM CSS:
+ *
+ * ------------------------------------------------------------------- */
+.tech-tags {
+    margin-top: 20px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.tech-tag {
+    padding: 8px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 500;
+    background: #f8f8f8;
+    transition: all 0.2s ease;
+    cursor: default;
+}
+
+.tech-tag:hover {
+    border-color: #000;
+    background: #fff;
+}
